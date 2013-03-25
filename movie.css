@@ -1,0 +1,143 @@
+body{
+background-color:#003399;
+}
+
+@font-face{
+font-family: "Aladdin";
+src: url('QUIGLEYW-webfont.ttf');
+}
+
+#genie{
+background-color:#FFCC33;
+height: 180px;
+border: 1px solid black;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 72%;
+margin-bottom:45px;
+border-style: solid; 
+border-width: 28px 39px 26px; 
+-moz-border-image: url(carpetborder.png) 28 39 26 repeat; 
+-webkit-border-image: url(carpetborder.png) 28 39 26 repeat; 
+-o-border-image: url(carpetborder.png) 28 39 26 repeat; 
+border-image: url(carpetborder.png) 28 39 26 fill repeat;
+}
+
+#movies{
+background-color:#FFCC33;
+height: 180px;
+border: 1px solid black;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+width: 70%;
+margin-top:15px;
+visibility: hidden;
+overflow: auto;
+font-size: 22pt;
+border-style: solid;
+border-width: 28px 39px 26px;
+-moz-border-image: url(carpetborder.png) 28 39 26 repeat;
+-webkit-border-image: url(carpetborder.png) 28 39 26 repeat;
+-o-border-image: url(carpetborder.png) 28 39 26 repeat;
+border-image: url(carpetborder.png) 28 39 26 fill repeat;
+
+}
+
+#logo{
+width:234px;
+height:141px;
+}
+
+.center{
+margin-left:auto;
+margin-right:auto;
+width:20%;
+}
+
+#dir{
+font-size:18pt;
+font-family:"Aladdin";
+}
+
+#results{
+font-size:18pt;
+}
+
+.movieOption{
+width: 90px;
+height: 50px;
+font-size: 18pt;
+cursor: pointer;
+text-align: center;
+vertical-align: middle;
+color: black;
+padding: 15px;
+border: 3px solid black;
+margin:10px;
+float:left;
+background-image: url("goldbg.jpg");
+}
+
+.movieOption:hover {
+opacity: 1;
+border: 3px solid yellow;
+}
+
+.minOption{
+width:45px;
+}
+
+#genre{
+visibility:visible;
+}
+
+#ageRating{
+visibility:hidden;
+position:absolute;
+}
+
+#minRating{
+visibility:hidden;
+position:absolute;
+}
+
+#results{
+position:absolute;
+}
+
+.result{
+font-size:18px;
+}
+
+#reset{
+width: 100px;
+height: 20px;
+font-family:"Aladdin";
+font-size: 18pt;
+cursor: pointer;
+text-align: center;
+vertical-align: middle;
+color: black;
+padding: 15px;
+border: 3px solid black;
+margin-left: 42%;
+float:left;
+visibility:hidden;
+background-image: url("goldbg.jpg");
+}
+
+#reset:hover {
+opacity: 1;
+border: 3px solid yellow;
+}
+
+img{
+vertical-align:middle;
+padding: 10px;
+}
+
+h1, h2{
+display:inline;
+}
